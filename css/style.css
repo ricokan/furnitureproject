@@ -1,0 +1,17 @@
+.Hotspot {
+    background-color: #ffffff;
+    color: rgb(9, 47, 34);
+    border-radius: 3px;
+    padding: 3px;
+}
+.larger-example {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(208, 198, 182);
+}
+#model-info {
+    display: none;
+}
+.visible {
+    display: block;
+}
