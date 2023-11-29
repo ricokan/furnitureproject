@@ -9,9 +9,14 @@
 </head>
 <body>
     <div id="banner">
-        <h1>Welcome to Our Furniture Store!</h1>
-        <p>Discover a wide range of high-quality furniture for your home.</p>
-    </div>
+      <img src="./images/poster.png" alt="Furniture Store Poster">
+      <div id="banner">
+          <h1>Welcome to Our Furniture Store!</h1>
+          <p>Discover a wide range of high-quality furniture for your home.</p>
+      </div>
+  </div>
+
+  <h1>Signature Bed</h1>
 
     <model-viewer id="bed" src="./models/bed.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" exposure="0.76" shadow-softness="0.55" 
     environment-image="legacy">
@@ -26,7 +31,7 @@
   </model-viewer>
 
   
-
+<h1>With Dimension & Variant</h1>
   <model-viewer id="dimension-demo" ar ar-modes="webxr" ar-scale="fixed" camera-orbit="-30deg auto auto" max-camera-orbit="auto 100deg auto" shadow-intensity="1" camera-controls touch-action="pan-y" src="./models/bed.glb" alt="A 3D model of an armchair.">
     <button slot="hotspot-dot+X-Y+Z" class="dot" data-position="1 -1 1" data-normal="1 0 0"></button>
     <button slot="hotspot-dim+X-Y" class="dim" data-position="1 -1 0" data-normal="1 0 0"></button>
@@ -61,7 +66,7 @@
   </model-viewer>
 
 
-
+<h1>Signature Beanbag</h1>
     <model-viewer id="beanbag" src="./models/bean_bag.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" exposure="0.76" shadow-softness="0.55" environment-image="legacy">
       <button id="change-beanbag" class="Hotspot" slot="hotspot-1" data-position="0.31323789517729583m 0.6986176699395965m 0.027800903984469813m" data-normal="-0.37957711632063207m 0.5911218402619459m 0.7116854521001845m" data-visibility-attribute="visible">
           <div class="HotspotAnnotation">Change Pattern</div>
@@ -73,7 +78,7 @@
   </model-viewer>
 
   
-
+<h1>Folding Chair with lighting effect</h1>
   </model-viewer>
 
   <model-viewer  id="neutral-demo" camera-controls touch-action="pan-y" auto-rotate alt="A 3D model of a kitchen mixer" src="./models/chair.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" exposure="0.76" shadow-softness="0.55" environment-image="legacy">
@@ -87,6 +92,21 @@
   </button>
     <label for="neutral">Neutral Lighting: </label>
     <input id="neutral" type="checkbox" checked="true">
+</model-viewer>
+
+<h1>Scene Combination</h1>
+<model-viewer id="scene" src="./models/scene.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+  <button class="Hotspot" slot="hotspot-1" data-position="25.107566888439642m 8.33453592882295m -9.389560369745983m" data-normal="-0.06408477465949179m 0.9974317005981375m 0.03198662687357948m" data-visibility-attribute="visible">
+      <div class="HotspotAnnotation">Limited Edition Bedsheet</div>
+  </button><button class="Hotspot" slot="hotspot-2" data-position="48.10518975179224m 4.925559799895969m 20.12017633020155m" data-normal="0.21458491752147102m 0.7392852495740693m 0.6382872652141117m" data-visibility-attribute="visible">
+      <div class="HotspotAnnotation">Beanbag (Regular size)</div>
+  </button><button class="Hotspot" slot="hotspot-3" data-position="-7.574652149417403m 7.4973512378360825m 25.643723986038687m" data-normal="-0.14622499677807185m 0.9055115178986968m 0.3983304423089592m" data-visibility-attribute="visible">
+      <div class="HotspotAnnotation">Dog</div>
+  </button><button class="Hotspot" slot="hotspot-4" data-position="17.229198783346696m 20.075504286926893m 54.66977870791749m" data-normal="-2.4599027457009936e-8m -2.6871771104444233e-7m -0.9999999999999636m" data-visibility-attribute="visible">
+      <div class="HotspotAnnotation">New TV</div>
+  </button><button class="Hotspot" slot="hotspot-6" data-position="-13.99657409174526m 9.558019745261184m 43.23768382481995m" data-normal="-0.8084719788294371m 0.572841068418151m 0.13500433245331578m" data-visibility-attribute="visible">
+      <div class="HotspotAnnotation">Italian chair</div>
+  </button>
 </model-viewer>
 
 

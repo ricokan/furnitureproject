@@ -19,6 +19,12 @@
     display: block;
 }
 
+h1 {
+    text-align: center;
+    color: #e66216;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
 model-viewer {
     width: 50%;
     height: 70vh;
@@ -28,7 +34,7 @@ model-viewer {
 }
 
 #banner {
-    background-color: #3498db; /* Change the background color as needed */
+    background-color: #ffffff; /* Change the background color as needed */
     color: #ffffff; /* Change the text color as needed */
     padding: 10px; /* Adjust padding as needed */
     text-align: center;
