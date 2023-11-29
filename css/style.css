@@ -15,3 +15,30 @@
 .visible {
     display: block;
 }
+
+model-viewer {
+    width: 50%;
+    height: 70vh;
+    margin: auto;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    background-color: rgb(255, 255, 255);
+}
+
+#banner {
+    background-color: #3498db; /* Change the background color as needed */
+    color: #ffffff; /* Change the text color as needed */
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center;
+}
+
+
+#controls {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  max-width: unset;
+  transform: unset;
+  pointer-events: auto;
+  z-index: 100;
+}
+
