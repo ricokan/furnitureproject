@@ -3,7 +3,10 @@
     color: rgb(9, 47, 34);
     border-radius: 3px;
     padding: 3px;
+    font-family:'Franklin Gothic Medium';
+    font-size: medium;
 }
+
 .larger-example {
     width: 600px;
     height: 500px;
